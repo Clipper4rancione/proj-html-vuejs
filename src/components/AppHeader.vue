@@ -8,6 +8,8 @@ export default {
     <header>
         <div class="container">
             H
+            <!-- Logo -->
+            <!-- Menu navigazione dinamico -->
         </div>
     </header>
 </template>

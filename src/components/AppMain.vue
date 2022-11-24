@@ -7,6 +7,23 @@ export default {
 <template>
     <main>
         <div class="container">
+            <!-- Jumbotron -->
+
+            <!-- Section Health-->
+
+            <!-- Section Meet Doc.-->
+                <!-- Cards with doctors -->
+            <!-- /Section Meet Doc.-->
+
+            <!-- Section Services -->
+
+            <!-- Section Facilities -->
+            
+            <!-- Section Blue Band -->
+
+            <!-- Form Section -->
+
+            <!-- Sponsor Section (Slider?) -->
             M
         </div>
     </main>
