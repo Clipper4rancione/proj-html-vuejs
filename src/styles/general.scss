@@ -5,8 +5,9 @@
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
 
 // Fontsource/Raleway
-@import 'node_modules/@fontsource/raleway/400.css';
-@import 'node_modules/@fontsource/raleway/500.css';
+@import 'node_modules/@fontsource/lato/300.css';
+@import 'node_modules/@fontsource/lato/400.css';
+@import 'node_modules/@fontsource/lato/500.css';
 
 
 //links
@@ -16,5 +17,5 @@ a {
 
 //General
 body{
-    font-family: $font-raleway;
+    font-family: $font-lato;
 }
