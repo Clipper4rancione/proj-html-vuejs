@@ -14,11 +14,15 @@ export default {
 
             <div class="nav-area">
                 <ul>
-                    <li><a href="#">HOME</a></li>
+                    <li><a class="nav-header-active" href="#">HOME</a></li>
                     <li><a href="#">ABOUT</a></li>
                     <li><a href="#">DEPARTMENTS</a></li>
                     <li><a href="#">ARTICLES</a></li>
-                    <li class="mc-btn"><a href="#">MAKE APPOINTMENT</a></li>
+                    <li><a href="#">
+                        <span class="mc-btn">
+                            MAKE APPOINTMENT
+                        </span>
+                        </a></li>
                 </ul>
             </div>
     </header>
@@ -38,6 +42,10 @@ export default {
         align-items: center;
         z-index: 999;
 
+        .nav-header-active{
+            color: #449ebf;
+        }
+
             .logo-area{
                 height: 100%;
                 width: 170px;
@@ -53,8 +61,13 @@ export default {
                 display: flex;
 
                 li{
-                    padding-left: 25px;
+                    margin-left: 25px;
                     font-weight: 500;
+                    font-size: 0.9rem;
+                    
+                    a{
+                        color: white;
+                    }
                 }
             }
         
