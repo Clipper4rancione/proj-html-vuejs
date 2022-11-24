@@ -1,14 +1,20 @@
 <script>
+
+import AppJumbo from './AppJumbo.vue'
+
 export default {
-    name: 'AppMain'
+    name: 'AppMain',
+    components:{
+        AppJumbo,
+    }
 }
 </script>
 
 <template>
+        <!-- Jumbotron -->
+        <AppJumbo />
     <main>
         <div class="container">
-            <!-- Jumbotron -->
-
             <!-- Section Health-->
 
             <!-- Section Meet Doc.-->
