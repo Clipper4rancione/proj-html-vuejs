@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource/raleway": "^4.5.11",
     "bootstrap": "^5.2.3",
     "sass": "^1.56.1",
     "scss": "^0.2.4",
