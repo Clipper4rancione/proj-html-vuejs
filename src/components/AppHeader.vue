@@ -15,11 +15,11 @@ export default {
 
             <div class="nav-area">
                 <ul>
-                    <li><a href="#">NAV</a></li>
-                    <li><a href="#">NAV</a></li>
-                    <li><a href="#">NAV</a></li>
-                    <li><a href="#">NAV</a></li>
-                    <li><a href="#">NAV</a></li>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">DEPARTMENTS</a></li>
+                    <li><a href="#">ARTICLES</a></li>
+                    <li class="mc-btn"><a href="#">MAKE APPOINTMENT</a></li>
                 </ul>
             </div>
         </div>
@@ -28,30 +28,36 @@ export default {
 
 
 <style lang="scss" scoped>
-    .h-wrapper{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
 
-        padding: 18px;
-
-
-        .logo-area{
-            height: 100%;
-            width: 170px;
-
-            img{
-                width: 100%;
-                vertical-align: middle;
-
-            }
-        }
-        ul{
-            list-style: none;
+    header {
+        
+    
+        .h-wrapper{
             display: flex;
+            justify-content: space-between;
+            align-items: center;
 
-            li{
-                padding-left: 25px;
+            padding: 18px;
+
+
+            .logo-area{
+                height: 100%;
+                width: 170px;
+
+                img{
+                    width: 100%;
+                    vertical-align: middle;
+
+                }
+            }
+            ul{
+                list-style: none;
+                display: flex;
+
+                li{
+                    padding-left: 25px;
+                    font-weight: 500;
+                }
             }
         }
     }
