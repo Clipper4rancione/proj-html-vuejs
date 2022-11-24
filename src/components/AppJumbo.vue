@@ -11,6 +11,7 @@ export default {
                 <div class="col-7">
                     <h1>Caring <span>For Life</span></h1>
                     <p>Kind words can be short and easy to speak, but their echoes are truly endless. Avada Health focuses on you as if it was our own family</p>
+                    <div class="mc-btn d-inline-block">LEARN MORE</div>
                 </div>
             </div>
             
@@ -47,6 +48,9 @@ export default {
         }
         p{
             font-size: 1.2rem;
+        }
+        .mc-btn{
+            letter-spacing: 3px;
         }
     }
 </style>
