@@ -5,6 +5,11 @@ export default {
 </script>
 
 <template>
+    <footer>
+        <div class="container">
+            F
+        </div>
+    </footer>
   
 </template>
 
