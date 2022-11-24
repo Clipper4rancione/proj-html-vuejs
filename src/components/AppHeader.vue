@@ -8,7 +8,6 @@ export default {
     <header>
         <!-- Logo -->
         <!-- Menu navigazione dinamico -->
-        <div class="h-wrapper">
             <div class="logo-area">
                 <img src="../assets/img/medical_logo_1x_dark.png" alt="">
             </div>
@@ -22,7 +21,6 @@ export default {
                     <li class="mc-btn"><a href="#">MAKE APPOINTMENT</a></li>
                 </ul>
             </div>
-        </div>
     </header>
 </template>
 
@@ -30,15 +28,15 @@ export default {
 <style lang="scss" scoped>
 
     header {
-        
-    
-        .h-wrapper{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-
-            padding: 18px;
-
+        position: sticky;
+        top: 0;
+        left: 0;
+        padding: 18px;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 999;
 
             .logo-area{
                 height: 100%;
@@ -59,7 +57,7 @@ export default {
                     font-weight: 500;
                 }
             }
-        }
+        
     }
 
 </style>
