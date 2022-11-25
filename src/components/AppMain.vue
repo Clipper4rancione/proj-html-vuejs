@@ -19,7 +19,6 @@ export default {
         <!-- Jumbotron -->
         <AppJumbo />
     <main>
-        <div class="container">
             <!-- Section Health-->
             <section id="health">
                 <div class="container">
@@ -41,6 +40,19 @@ export default {
                 </div>
             </section>
             <!-- Section Meet Doc.-->
+            <section id="meet-our-doctors">
+                <div class="container mc-container">
+                    <div class="sect-head">
+                        <div class="image-area mb-5">
+                            <img src="../assets/img/icon-5.png" alt="">
+                        </div>
+                        <div class="text-area text-center">
+                            <h2>MEET OUR DOCTORS</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo minima impedit libero dolor itaque aperiam officiis voluptate aliquam, nihil consectetur. Obcaecati magnam dicta sapiente necessitatibus aspernatur molestiae perspiciatis, ab consequatur!</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
                 <!-- Cards with doctors -->
 
             <!-- /Section Meet Doc.-->
@@ -55,7 +67,6 @@ export default {
 
             <!-- Sponsor Section (Slider?) -->
             M
-        </div>
     </main>
   
 </template>
@@ -64,7 +75,7 @@ export default {
 <style lang="scss" scoped>
     #health{
         width: 100%;
-        padding: 10px;
+        padding: 100px 0px;
 
 
         .welcome-area{
@@ -108,6 +119,21 @@ export default {
                 margin-bottom: 25px;
                 width: 80px;
             }
+        }
+    }
+
+    #meet-our-doctors{
+        width: 100%;
+        padding: 60px 0px;
+        background-color: #f1efef;
+
+        .sect-head {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+        
         }
     }
 </style>
