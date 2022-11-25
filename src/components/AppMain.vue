@@ -30,11 +30,11 @@ export default {
                 </div>
                 <div class="container">
                     <div class="row w-100">
-                        <div class="col-3 my-5">
+                        <div class="col-3 my-5" v-for="(card, index) in store.infoCard" :key="index">
                             <div class="info-card">
-                                <img src="../assets/img/icon-1.png" alt="">
-                                <h5>SAME DAY APPOINTMENTS</h5>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione,</p>
+                                <img :src="card.img" :alt="card.caption">
+                                <h5>{{card.caption}}</h5>
+                                <p>{{card.comment}}</p>
                             </div>
                         </div>
                     </div>
@@ -84,12 +84,19 @@ export default {
             display: flex;
             margin-top: 30px;
 
+            
             text-align:center;
             font-weight: 300;
 
             flex-direction: column;
             justify-content: center;
             align-items: center;
+
+            h5{ 
+                font-weight: 300;
+                font-size: 1.1rem;
+                text-transform: uppercase;
+            }
 
             p {
                 line-height: 30px;
