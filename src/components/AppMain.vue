@@ -32,7 +32,7 @@ export default {
                     <div class="row w-100">
                         <div class="col-3 my-5" v-for="(card, index) in store.infoCard" :key="index">
                             <div class="info-card">
-                                <img :src="store.infoCard.img" :alt="card.caption">
+                                <img :src="'./infocard-icons/' + card.img" :alt="card.caption">
                                 <h5>{{card.caption}}</h5>
                                 <p>{{card.comment}}</p>
                             </div>
@@ -76,6 +76,8 @@ export default {
             }
 
             p {
+                font-weight: 300;
+                font-size: 1.2rem;
                 margin-top: 20px;
                 line-height: 35px;
             }
@@ -100,10 +102,11 @@ export default {
 
             p {
                 line-height: 30px;
+                color: gray;
             }
             img{
                 margin-bottom: 25px;
-                width: 100px;
+                width: 80px;
             }
         }
     }
