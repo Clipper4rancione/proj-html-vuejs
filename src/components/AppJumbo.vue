@@ -5,8 +5,8 @@ export default {
 </script>
 
 <template>
-    <section id="jumbotron">
-        <div class="container d-flex align-items-center">
+    <section id="jumbotron" class="d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-center">
             <div class="row">
                 <div class="col-7">
                     <h1>Caring <span>For Life</span></h1>
@@ -23,9 +23,6 @@ export default {
 
 <style lang="scss" scoped>
     #jumbotron{
-        position: absolute;
-        top: 0;
-        left: 0;
         width: 100%;
         height: 850px;
         background-image: url('../assets/img/header-image-homepage.jpg');
@@ -35,10 +32,7 @@ export default {
         color: white;
     }
     .container{
-        position: absolute;
-        top: 33%;
-        left: 23%;
-
+      
         h1{
             font-weight: 300;
             font-size: 4.5rem;

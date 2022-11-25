@@ -8,6 +8,7 @@ export default {
     <header>
         <!-- Logo -->
         <!-- Menu navigazione dinamico -->
+        <div class="h-wrapper">
             <div class="logo-area">
                 <img src="../assets/img/medical_logo_1x_dark.png" alt="">
             </div>
@@ -25,6 +26,7 @@ export default {
                         </a></li>
                 </ul>
             </div>
+        </div>
     </header>
 </template>
 
@@ -32,23 +34,21 @@ export default {
 <style lang="scss" scoped>
 
     header {
-        position: sticky;
-        top: 0;
-        left: 0;
-        padding: 23px;
-        overflow: hidden;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        z-index: 999;
+        height: 70px;
 
+        .h-wrapper{
+            width: 100%;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
         .nav-header-active{
             color: #449ebf;
         }
 
             .logo-area{
-                height: 100%;
-                width: 170px;
+                width: 190px;
 
                 img{
                     width: 100%;
@@ -59,6 +59,7 @@ export default {
             ul{
                 list-style: none;
                 display: flex;
+                align-items: center;
 
                 li{
                     margin-left: 25px;
@@ -66,7 +67,7 @@ export default {
                     font-size: 0.9rem;
                     
                     a{
-                        color: white;
+                        color: black;
                     }
                 }
             }
