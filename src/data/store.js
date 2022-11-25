@@ -5,24 +5,24 @@ export const store = reactive({
     /*INFO CARD OBJECT*/
     infoCard:[
         {
-            infoImg: 'icon-1.png',
+            img: './assets/img/icon-1.png',
             caption: 'Same Day Appointments',
-            comment: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, quas. Impedit eveniet'
+            comment: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.'
         },
         {
-            infoImg: 'icon-2.png',
+            img: './assets/img/icon-2.png',
             caption: 'World class facilities',
-            comment: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, quas. Impedit eveniet'
+            comment: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.'
         },
         {
-            infoImg: 'icon-3.png',
+            img: './assets/img/icon-3.png',
             caption: 'expert doctors',
-            comment: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, quas. Impedit eveniet'
+            comment: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.'
         },
         {
-            infoImg: 'icon-4.png',
+            img: './assets/img/icon-4.png',
             caption: 'complementary therapies',
-            comment: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione, quas. Impedit eveniet'
+            comment: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.'
         },
     ]
     /*/INFO CARD OBJECT*/
