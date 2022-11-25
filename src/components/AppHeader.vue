@@ -35,7 +35,7 @@ export default {
         position: sticky;
         top: 0;
         left: 0;
-        padding: 18px;
+        padding: 23px;
         overflow: hidden;
         display: flex;
         justify-content: space-between;
