@@ -32,7 +32,7 @@ export default {
                     <div class="row w-100">
                         <div class="col-3 my-5" v-for="(card, index) in store.infoCard" :key="index">
                             <div class="info-card">
-                                <img :src="card.img" :alt="card.caption">
+                                <img :src="store.infoCard.img" :alt="card.caption">
                                 <h5>{{card.caption}}</h5>
                                 <p>{{card.comment}}</p>
                             </div>
