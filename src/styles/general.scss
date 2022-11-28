@@ -9,6 +9,8 @@
 @import 'node_modules/@fontsource/lato/400.css';
 @import 'node_modules/@fontsource/lato/500.css';
 
+//Fontawesome
+@import 'node_modules/@fortawesome/fontawesome-free/css/all.min.css';
 
 //links
 a {
@@ -31,4 +33,19 @@ body{
 .container{
     width: 90%;
     margin: 0 auto;
+}
+
+i.fb{
+    color: #3c5998;
+}
+
+i.tw{
+    color: #54acee;
+}
+
+i.ig{
+    color: #3f729b;
+}
+i.yt{
+    color: red;
 }
