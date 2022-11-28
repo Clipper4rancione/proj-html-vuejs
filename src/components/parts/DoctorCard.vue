@@ -32,7 +32,7 @@ export default {
     <div class="col-3" v-for="(doc, index) in doctor" :key="index">
         <div class="doc-card">
             <div class="doc-img-area">
-                <img :src="'./public/doctor-card/' + doc.photo" :alt="doc.name">
+                <img :src="'/doctor-card/' + doc.photo" :alt="doc.name">
             </div>
                 <div class="doc-text-area">
                     <h6>{{doc.name}}</h6>
