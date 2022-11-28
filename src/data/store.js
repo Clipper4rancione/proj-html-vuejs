@@ -24,7 +24,40 @@ export const store = reactive({
             caption : 'complementary therapies',
             comment : 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.'
         },
-    ]
+    ],
     /*/INFO CARD OBJECT*/
+
+    /*FOOTER LIST */
+    footerList:[
+        {
+            name: 'Cardiology',
+            link: 'www.google.it'
+        
+        },
+        {
+            name: 'Pediatrics',
+            link: '#'
+        
+        },
+        {
+            name: 'Diabetes Care',
+            link: '#'
+        
+        },
+        {
+            name: 'Pre-natal Care',
+            link: '#'
+        
+        },
+        {
+            name: 'Ultrasound Echocardiogram',
+            link: '#'
+        
+        },
+    
+    ],
+    listCounter: 0,
+    
+    /*/FOOTER LIST */
 
 })
