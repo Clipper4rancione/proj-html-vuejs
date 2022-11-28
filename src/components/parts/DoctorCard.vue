@@ -68,6 +68,7 @@ export default {
                 font-weight: 300;
                 
                 h6{
+                    text-transform: uppercase;
                     margin-top: 15px;
                 
                 }
