@@ -41,6 +41,7 @@ export default {
                     </div>
                 </div>
             </section>
+            <!-- /Section Health -->
             <!-- Section Meet Doc.-->
             <section id="meet-our-doctors">
                 <div class="container mc-container">
@@ -93,9 +94,50 @@ export default {
                 </div>
             </section>
             <!-- Section Facilities -->
-            
+            <section id="facilities" class="d-flex justify-content-center align-items-center">
+                <div class="container mc-container">
+                    <div class="sect-head">
+                        <div class="image-area mb-5">
+                            <img src="../assets/img/icon-7.png" alt="">
+                        </div>
+                        <div class="text-area text-center">
+                            <h2>TOUR OUR FACILITIES</h2>   
+                            <!-- RIGA TRA H2 E P  -->
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo minima impedit libero dolor itaque aperiam officiis voluptate aliquam, nihil consectetur. Obcaecati magnam dicta sapiente necessitatibus aspernatur molestiae perspiciatis, ab consequatur!</p>
+                        </div>
+                        <img class="py-4 play-btn" src="../assets/img/play-icon.png" alt="">
+                    </div>
+                </div>
+            </section>
             <!-- Section Blue Band -->
-
+            <section id="blue-band">
+                <div class="container-100 d-flex">
+                    <div class="b-column left">
+                        <div class="content">
+                            <h5 class="py-3">Emergency Care</h5>
+                            <img class="mb-4" src="../assets/img/wave-divider.png" alt="">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam nisi quae repellendus, temporibus odit possimus eius magni odio! Eveniet, hic.</p>
+                            <div class="mc-btn-neutral d-inline-block">Learn More</div>
+                        </div>
+                    </div>
+                    <div class="b-column center">
+                        <div class="content">
+                            <h5 class="py-3">Expert Diagnostics</h5>
+                            <img class="mb-4" src="../assets/img/wave-divider.png" alt="">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam nisi quae repellendus, temporibus odit possimus eius magni odio! Eveniet, hic.</p>
+                            <div class="mc-btn-neutral d-inline-block">Learn More</div>
+                        </div>
+                    </div>
+                    <div class="b-column right">
+                        <div class="content">
+                            <h5 class="py-3">Superb Rehabilitation</h5>
+                            <img class="mb-4" src="../assets/img/wave-divider.png" alt="">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam nisi quae repellendus, temporibus odit possimus eius magni odio! Eveniet, hic.</p>
+                            <div class="mc-btn-neutral d-inline-block">Learn More</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <!-- Form Section -->
 
             <!-- Sponsor Section (Slider?) -->
@@ -163,7 +205,7 @@ export default {
 
     #our-health-services{
         width: 100%;
-        padding: 100px 0px;
+        padding: 90px 0px;
 
         .textarea{
 
@@ -179,6 +221,49 @@ export default {
         }
         
 
+    }
+    #facilities{
+        padding: 90px 0px;
+        min-height: 900px;
+        color: white;
+
+        background-image: url('../assets/img/paralax-bg-tour-facilities.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .play-btn{
+            cursor:pointer;
+        }
+        .play-btn:hover{
+            transform: scale(1.1);
+        }
+    }
+    #blue-band{
+        width: 100%;
+
+        .b-column{
+            width: calc(100% / 3);
+            
+        }
+            .b-column.left{
+                background-color: #3aafbf;
+            }
+            .b-column.center{
+                background-color: #3597c3;
+            }
+            .b-column.right{
+                background-color: #327ec7;
+            }
+
+        .content{
+            text-align: center;
+            padding: 45px;
+            color: white;
+
+            p{
+                line-height: 40px;
+            }
+        }
     }
     .sect-head {
             display: flex;
