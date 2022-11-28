@@ -54,7 +54,7 @@ export default {
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo minima impedit libero dolor itaque aperiam officiis voluptate aliquam, nihil consectetur. Obcaecati magnam dicta sapiente necessitatibus aspernatur molestiae perspiciatis, ab consequatur!</p>
                         </div>
                     </div>
-                <!-- Cards with doctors -->
+                    <!-- Cards with doctors -->
                     <div class="container">
                         <div class="row d-flex justify-content-center align-items-center">
                             <DoctorCard />
@@ -62,11 +62,36 @@ export default {
                     </div>
                 </div>
             </section>
-
             <!-- /Section Meet Doc.-->
 
             <!-- Section Services -->
-
+            <section id="our-health-services">
+                <div class="container mc-container">
+                    <div class="sect-head">
+                        <div class="image-area mb-5">
+                            <img src="../assets/img/icon-6.png" alt="">
+                        </div>
+                        <div class="text-area text-center">
+                            <h2>OUR HEALTH SERVICES</h2>   
+                            <!-- RIGA TRA H2 E P  -->
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo minima impedit libero dolor itaque aperiam officiis voluptate aliquam, nihil consectetur. Obcaecati magnam dicta sapiente necessitatibus aspernatur molestiae perspiciatis, ab consequatur!</p>
+                        </div>
+                    </div>
+                    <div class="container my-5">
+                        <div class="row">
+                            <div class="col-4 py-5" v-for="(service, index) in store.services" :key="index">
+                                <div class="image-area text-center">
+                                    <img :src="'/our-services/' + service.img" alt="">
+                                </div>
+                                <div class="textarea text-center p-3">
+                                    <h4 class="my-4">{{service.name}}</h4>
+                                    <p>{{service.text}}</p>
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <!-- Section Facilities -->
             
             <!-- Section Blue Band -->
@@ -134,8 +159,28 @@ export default {
         width: 100%;
         padding: 100px 0px;
         background-color: #f1efef;
+    }
 
-        .sect-head {
+    #our-health-services{
+        width: 100%;
+        padding: 100px 0px;
+
+        .textarea{
+
+            h4{
+                text-transform: uppercase;
+                font-weight: 300;
+            }
+
+            p{
+                line-height: 35px;
+                color: #b1b1b1;
+            }
+        }
+        
+
+    }
+    .sect-head {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -154,7 +199,4 @@ export default {
                 }
             }
         }
-
-        
-    }
 </style>
