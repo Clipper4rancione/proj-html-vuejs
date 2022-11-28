@@ -1,11 +1,13 @@
 <script>
 import { store } from '../data/store.js'
 import AppJumbo from './AppJumbo.vue'
+import DoctorCard from './parts/DoctorCard.vue'
 
 export default {
     name: 'AppMain',
     components:{
         AppJumbo,
+        DoctorCard
     },
     data(){
         return{
@@ -47,13 +49,19 @@ export default {
                             <img src="../assets/img/icon-5.png" alt="">
                         </div>
                         <div class="text-area text-center">
-                            <h2>MEET OUR DOCTORS</h2>
+                            <h2>MEET OUR DOCTORS</h2>   
+                            <!-- RIGA TRA H2 E P  -->
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo minima impedit libero dolor itaque aperiam officiis voluptate aliquam, nihil consectetur. Obcaecati magnam dicta sapiente necessitatibus aspernatur molestiae perspiciatis, ab consequatur!</p>
+                        </div>
+                    </div>
+                <!-- Cards with doctors -->
+                    <div class="container">
+                        <div class="row d-flex justify-content-center align-items-center">
+                            <DoctorCard />
                         </div>
                     </div>
                 </div>
             </section>
-                <!-- Cards with doctors -->
 
             <!-- /Section Meet Doc.-->
 
@@ -66,7 +74,7 @@ export default {
             <!-- Form Section -->
 
             <!-- Sponsor Section (Slider?) -->
-            M
+            
     </main>
   
 </template>
@@ -124,7 +132,7 @@ export default {
 
     #meet-our-doctors{
         width: 100%;
-        padding: 60px 0px;
+        padding: 100px 0px;
         background-color: #f1efef;
 
         .sect-head {
@@ -133,7 +141,20 @@ export default {
             align-items: center;
             justify-content: center;
 
-        
+            .text-area {
+                width: 60%;
+                h2{
+                    font-weight: 300;
+                    margin-bottom: 40px;
+                    
+                }
+
+                p {
+                    line-height: 40px;
+                }
+            }
         }
+
+        
     }
 </style>
