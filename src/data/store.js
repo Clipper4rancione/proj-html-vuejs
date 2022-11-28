@@ -56,8 +56,41 @@ export const store = reactive({
         },
     
     ],
-    listCounter: 0,
-    
     /*/FOOTER LIST */
+    
+    /*HEALTH SERVICES */
+        services:[
+            {
+                img : 'icon-14.png',
+                name: 'rehabilitation center',
+                text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam non quos magnam vitae ullam harum, ex eaque dolorum itaque enim?'
+            },
+            {
+                img : 'icon-15.png',
+                name: 'Dental Implants',
+                text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam non quos magnam vitae ullam harum, ex eaque dolorum itaque enim?'
+            },
+            {
+                img : 'icon-16.png',
+                name: 'Medicine Research',
+                text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam non quos magnam vitae ullam harum, ex eaque dolorum itaque enim?'
+            },
+            {
+                img : 'icon-11.png',
+                name: 'Blood Bank',
+                text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam non quos magnam vitae ullam harum, ex eaque dolorum itaque enim?'
+            },
+            {
+                img : 'icon-12.png',
+                name: 'Pharmaceutical Advice',
+                text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam non quos magnam vitae ullam harum, ex eaque dolorum itaque enim?'
+            },
+            {
+                img : 'icon-13.png',
+                name: 'Medical Counseling',
+                text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam non quos magnam vitae ullam harum, ex eaque dolorum itaque enim?'
+            },
+        ]
+    /*/HEALTH SERVICES */
 
 })
