@@ -69,10 +69,11 @@ export default {
                                         {{item.name}}
                                 </li>
                             </ul>
+                            <!-- Button CTA -->
+                            <div class="mc-btn-big my-4 d-inline-block">
+                                VIEW OUR DEPARTMENTS
+                            </div>
                         </div>
-                        <!-- h2 -->
-                        <!-- List -->
-                        <!-- Button CTA -->
                     </div>
                     <!-- /Right Section -->
                 </div>
