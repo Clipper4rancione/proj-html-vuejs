@@ -139,6 +139,19 @@ export default {
                 </div>
             </section>
             <!-- Form Section -->
+            <section id="make-an-appointment">
+                <div class="sect-head">
+                        <div class="image-area mb-5">
+                        </div>
+                        <div class="text-area text-center mt-5">
+                            <h2>OUR HEALTH SERVICES</h2>   
+                            <!-- RIGA TRA H2 E P  -->
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo minima impedit libero dolor itaque aperiam officiis voluptate aliquam, nihil consectetur. Obcaecati magnam dicta sapiente necessitatibus aspernatur molestiae perspiciatis, ab consequatur!</p>
+                        </div>
+                    </div>
+            </section>
+            <!-- /Form Section -->
+
 
             <!-- Sponsor Section (Slider?) -->
             
@@ -264,6 +277,13 @@ export default {
                 line-height: 40px;
             }
         }
+    }
+    #make-an-appointment{
+        min-height: 900px;
+        color:white;
+        background-image: url('../assets/img/make-an-appointment.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .sect-head {
             display: flex;
