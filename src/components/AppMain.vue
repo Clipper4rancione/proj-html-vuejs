@@ -144,11 +144,46 @@ export default {
                         <div class="image-area mb-5">
                         </div>
                         <div class="text-area text-center mt-5">
-                            <h2>OUR HEALTH SERVICES</h2>   
+                            <h2>Make An Appointment</h2>   
                             <!-- RIGA TRA H2 E P  -->
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo minima impedit libero dolor itaque aperiam officiis voluptate aliquam, nihil consectetur. Obcaecati magnam dicta sapiente necessitatibus aspernatur molestiae perspiciatis, ab consequatur!</p>
+                            <p class="p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo minima impedit libero dolor itaque aperiam officiis voluptate aliquam, nihil consectetur. Obcaecati magnam dicta sapiente necessitatibus aspernatur molestiae perspiciatis, ab consequatur!</p>
+                        </div>
+                </div>
+                <div class="form-area">
+                    <div class="container mc-container">
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Name*">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Email*">
+                            </div>
+                        </div>
+                        <div class="row py-4">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Phone Number">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Appointment Date">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="input-group">
+                                    <textarea class="form-control" placeholder="How Can We Help?*"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row py-4">
+                            <div class="col-12">
+                                <div class="mc-btn-big">
+                                    MAKE AN APPOINTMENT
+                                </div>
+                            </div>
                         </div>
                     </div>
+                </div>
+
             </section>
             <!-- /Form Section -->
 
@@ -284,6 +319,30 @@ export default {
         background-image: url('../assets/img/make-an-appointment.jpg');
         background-repeat: no-repeat;
         background-size: cover;
+
+        .form-area{
+
+            .mc-container{
+                width: 50%;
+                margin: 0 auto;
+            }
+
+            .mc-btn-big{
+                text-align: center;
+                color: white;
+                border: none;
+                background-color: #3aafbf;
+            }
+        }
+        .form-control{
+            background-color: transparent;
+            color: white;
+            border-radius: 0%;
+        }
+        .form-control::placeholder{
+            opacity: .6;
+            color: white;
+        }
     }
     .sect-head {
             display: flex;
