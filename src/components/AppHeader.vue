@@ -8,6 +8,9 @@ export default {
     <header>
         <!-- Logo -->
         <!-- Menu navigazione dinamico -->
+
+        <!-- HEADER E JUMBOTRON DA SISTEMARE -->
+
         <div class="h-wrapper">
             <div class="logo-area">
                 <img src="../assets/img/medical_logo_1x_dark.png" alt="">
@@ -34,7 +37,13 @@ export default {
 <style lang="scss" scoped>
 
     header {
+        width: 100%;
         height: 70px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        
+        
 
         .h-wrapper{
             width: 100%;
@@ -42,6 +51,7 @@ export default {
             display: flex;
             justify-content: space-between;
             align-items: center;
+            
         }
         .nav-header-active{
             color: #449ebf;
@@ -63,11 +73,11 @@ export default {
 
                 li{
                     margin-left: 25px;
-                    font-weight: 500;
                     font-size: 0.9rem;
                     
                     a{
-                        color: black;
+                        font-weight: 500;
+                        color: white;
                     }
                 }
             }
